@@ -5,11 +5,11 @@ body {
 
 h1 { 
   text-align: center;
-	margin-top: 50px;
+  margin-top: 50px;
 }
 .blockItems {
   position: relative;
-  background: #00FFFF;
+  background: #6cf8fc;
   margin:30px auto;
   max-width: 500px;
   height: 500px
@@ -19,103 +19,89 @@ h1 {
   text-transform: uppercase;
 }
 .item1 {
-  background: #E23737;
-  height: 30px;
-  width: 30px;
+  background: #ee4433;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-  top: 0px;
-  left: 0px;
   text-align: center;
-  line-height: 30px;
+  line-height: 40px;
 }
 .item2 {
-  border: 1px solid red;
+  border: 1px solid #ed5737;
   background: #FFD700;
-  height: 30px;
-  width: 30px;
-  top: 0px;
+  height: 40px;
+  width: 40px;
   left: 50%;
   transform: translateX(-50%);
   border-radius:5px;
-  line-height: 30px;
+  line-height: 40px;
   text-align: right;
 }
 .item3 {
-  background: #0000FF;
-  height: 35px;
-  width: 35px;
-  top: 0px;
-  right: 0px;
-  line-height: 35px;
-  text-align: left;
-  font-size: x-large;
-}
-.item4 {
-  background: #228B22;
+  background: #2f64f5;
   height: 40px;
   width: 40px;
-  top: 220px;
-  left: 0px;
-  border-right: 4px solid #0000FF;
-  border-left: 4px solid #0000FF;
+  right: 0px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 25px;
+}
+.item4 {
+  background: #3d801d;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-right: 4px solid #2f64f5;
   line-height: 40px;
   text-align: right;
 }
 .item5 {
-  background: #000000;
+  background: #f4a540;
   height: 50px;
   width: 50px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  border: 1px solid #FFD700;
-  border-top-left-radius: 30%;
-  border-bottom-right-radius: 30%;
   text-align: center;
   line-height: 50px;
-  color: white;
 }
 .item6 {
-  background: #C71585;
-  height: 60px;
-  width: 60px;
-  top: 220px;
+  background: #823b80;
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0px;
-  line-height: 60px;
+  line-height: 40px;
 }
 .item7 {
-  background: #FF7F50;
-  height: 70px;
-  width: 70px;
+  background: #6cf8fc;
+  height: 40px;
+  width: 40px;
   bottom: 0px;
-  left: 0px;
-  border-top-right-radius: 30%;
-  border-bottom-left-radius: 30%;
-  text-align: center;
-  line-height: 70px;
-  font-size: xx-large;
+  text-align: right;
+  line-height: 40px;
+  color: #3d801d;
 }
 .item8 {
-  background: #5F9EA0;
-  height: 80px;
-  width: 80px;
-  bottom: 30px;
+  background: #000000;
+  height: 40px;
+  width: 40px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
-  line-height: 0px;
-  font-size: larger;
-  font-weight: bold;
-  border-top: 40px solid #00FFFF;
+  text-align: left;
+  line-height: 40px;
+  color: #ffffff;
 }
 .item9 {
-  height: 90px;
-  width: 90px;
+  background: #7c7c7c;
+  height: 40px;
+  width: 40px;
   bottom: 0px;
   right: 0px;
   text-align: center;
-  line-height: 90px;
-  font-size: xx-large;
-  font-style: italic;
-  color: #00FF00; 
+  line-height: 0px;
+  color: #ee4433;
 }
